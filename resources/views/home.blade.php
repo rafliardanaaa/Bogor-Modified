@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/7a3bb47c80.js" crossorigin="anonymous"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
         ::-webkit-scrollbar {
@@ -94,28 +95,79 @@
         <a href="https://maps.app.goo.gl/ocpRUX8e4BiiLNFa7" target="blank">Klik</a>
     </div>
     <footer class="">
-        <div class="h-80 mx-80 flex">
-            <div class="">
-                <div class="flex items-center">
+        <div class="px-80 py-20">
+            <div class="py-5 flex">
+                <div class="w-2/5">
                     <a href="" class="font-medium hover:text-blue transition duration-500">
-                        <div class="flex justify-center items-center gap-2">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <div class=" flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 mr-2">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M11.42 15.17 17.25 21A2.652 2.652 0 0 0 21 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 1 1-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 0 0 4.486-6.336l-3.276 3.277a3.004 3.004 0 0 1-2.25-2.25l3.276-3.276a4.5 4.5 0 0 0-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437 1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008Z" />
                             </svg>
-                            <p class="text-lg">Bogor Modified</p>
+                            <p class="text-xl font-medium">Bogor Modified</p>
                         </div>
                     </a>
                 </div>
-                <div class="my-5">
-                    <p>We offer the best electric cars of the most recognized brands in the world.</p>
+                <div class="w-1/5">
+                    <p class="text-xl font-medium">Company</p>
                 </div>
-    
+                <div class="w-1/5">
+                    <p class="text-xl font-medium">Information</p>
+                </div>
+                <div class="w-1/5">
+                    <p class="text-xl font-medium">Follow us</p>
+                </div>
             </div>
-            <div class="">
-
+            <div class="flex">
+                <div class="w-2/5 text-french-gray">
+                    <p class="w-64">We offer the best electric cars of the most recognized brands in the world.</p>
+                </div>
+                <div class="w-1/5">
+                    <ul class="text-french-gray">
+                        <li class="my-2 hover:text-white transtition duration-500"> 
+                            <a href="">About</a>
+                        </li>
+                        <li class="my-2 hover:text-white transtition duration-500"> 
+                            <a href="">Cars</a>
+                        </li>
+                        <li class="my-2 hover:text-white transtition duration-500"> 
+                            <a href="">History</a>
+                        </li>
+                        <li class="my-2 hover:text-white transtition duration-500"> 
+                            <a href="">Shop</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="w-1/5">
+                    <ul class="text-french-gray">
+                        <li class="my-2 hover:text-white transtition duration-500"> 
+                            <a href="">Request a quote</a>
+                        </li>
+                        <li class="my-2 hover:text-white transtition duration-500"> 
+                            <a href="">Find a dealer</a>
+                        </li>
+                        <li class="my-2 hover:text-white transtition duration-500"> 
+                            <a href="">Contact us</a>
+                        </li>
+                        <li class="my-2 hover:text-white transtition duration-500"> 
+                            <a href="">Services</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="w-1/5">
+                    <div class="text-french-gray">
+                        <a href="">
+                            <i class="fa-brands fa-instagram text-2xl hover:text-white transition duration-500"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-brands fa-youtube mx-5 text-2xl hover:text-white transition duration-500"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="h-28 flex justify-center items-center text-xs font-extralight  ">© Created by <a href="" class="ml-1 font-medium">rafliardanaaa</a>. All rights reserved</div>
+        <div class="h-28 flex justify-center items-center text-xs font-extralight ">
+            <p>© Created by <a href="" class="ml-1 font-medium">rafliardanaaa</a>. All rights reserved</p>
+        </div>
     </footer>
 </body>
 </html>
