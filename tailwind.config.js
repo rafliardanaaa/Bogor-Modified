@@ -7,11 +7,11 @@ export default {
   ],
   theme: {
     colors: {
-      'night': '#0A0A0B',
-      'blue': '#0270d4',
-      'white': '#fafafa',
+      'night': '#0a0a0b',
+      'celtic-blue': '#0270d4',
+      'seasalt': '#fafafa',
       'red': '#ff0a37',
-      'french-gray': '#AEB2B7',
+      'french-gray': '#aeb2b7',
     },
     extend: {},
     fontFamily: {
