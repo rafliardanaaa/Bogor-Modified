@@ -12,6 +12,7 @@ export default {
       'seasalt': '#fafafa',
       'red': '#ff0a37',
       'french-gray': '#aeb2b7',
+      'eerie-black': '#1e1e1e',
     },
     extend: {},
     fontFamily: {

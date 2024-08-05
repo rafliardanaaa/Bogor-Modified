@@ -10,6 +10,9 @@
         ::-webkit-scrollbar {
             display: none;
         }
+        :root{
+            scroll-behavior: smooth;
+        }
     </style>
     <title>Bogor Modified - Bengkel Cat</title>
     @vite('resources/css/app.css')
@@ -37,15 +40,40 @@
     </nav>
     <a href="">
         <div class="bg-celtic-blue rounded-md fixed flex justify-center items-center size-10 right-14 bottom-14">
-            <i class="text-night text-center fa-solid fa-arrow-up"></i>
+            <i class="text-seasalt text-center fa-solid fa-arrow-up"></i>
         </div>
     </a>
     <main class="py-20">
+        <div class="mx-80">
+            <div class="pt-20 text-center">
+                <p class="py-2 text-3xl font-semibold">Most Popular Vehicle</p>
+                <p class="text-xl font-semibold">Honda</p>
+                <p>Vario 160</p>
+            </div>
+          
+            <div class="my-10   flex justify-center">
+                <img src="img/honda-vario-160.png" alt="">
+            </div>
+        </div>
+        <!-- Search -->
+        <div class="py-20">
+            <div class="flex justify-center items-center">
+                <div class="bg-eerie-black w-2/3 rounded-xl flex shadow-xl">
+                    <div class="w-20 flex justify-center items-center">
+                        <i class="text-french-gray fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <input type="text" placeholder="Masukan nomor pesanan untuk mengecek status barang" autocomplete="off" class="bg-eerie-black h-14 w-full p-2 outline-none">
+                    <button class="bg-celtic-blue w-40 rounded-r-xl font-medium">
+                        <div>Cek Pesanan</div>
+                    </button>
+                </div>
+            </div>
+        </div>
         <!-- About -->
-        <div id="about" class="mx-80 my-20">
+        <div id="about" class="mx-80 py-48">
             <div class="flex gap-20">
                 <div class="w-1/2">
-                    <img src="img/cover.jpg" alt="" class="h-96 w-full object-none object-center rounded-xl">
+                    <img src="img/cover.jpg" alt="" class="h-[480px] w-full object-none object-center rounded-xl">
                 </div>
                 <div class="w-1/2">
                     <div class="my-8 space-y-2">
@@ -58,20 +86,20 @@
                     <div class=" flex justify-center items-center gap-10">
                         <div class="h-36 w-1/3 border-celtic-blue border-b-2 flex justify-center items-center rounded-xl hover:border-celtic-blue hover:border-2 transition duration-500">
                             <div class="text-center">
-                                <p>500+</p>
-                                <p>Pengerjaan Motor</p>
+                                <p>Layanan</p>
+                                <p>Prima</p>
                             </div>
                         </div>
                         <div class="h-36 w-1/3 border-celtic-blue border-b-2 flex justify-center items-center rounded-xl hover:border-celtic-blue hover:border-2">
                             <div class="text-center">
-                                <p>500+</p>
-                                <p>Pengerjaan Motor</p>
+                                <p>Pengerjaan</p>
+                                <p>24 Jam</p>
                             </div>
                         </div>
                         <div class="h-36 w-1/3 border-celtic-blue border-b-2 flex justify-center items-center rounded-xl hover:border-celtic-blue hover:border-2">
                             <div class="text-center">
-                                <p>500+</p>
-                                <p>Pengerjaan Motor</p>
+                                <p>Harga</p>
+                                <p>Terjangkau</p>
                             </div>
                         </div>
                     </div>
@@ -79,7 +107,7 @@
             </div>
         </div>
         <!-- Maps -->
-        <div class="mx-80 py-20" id="maps">
+        <div id="maps" class="mx-80">
             <div class="flex justify-center items-center text-xl font-semibold">Lokasi kami</div>
                 <div class="h-96 w-1/2 pr-10">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.7842925990763!2d106.91817517573364!3d-6.421755662802635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69952904e00e4b%3A0x3666ca5f3d5e6883!2sBogor%20Modified!5e0!3m2!1sid!2sid!4v1722420546529!5m2!1sid!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="h-full w-full rounded-tl-2xl rounded-br-2xl border-none"></iframe>
